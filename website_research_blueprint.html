@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<style>
+		body {
+	  font-family: Arial, sans-serif;
+	  padding: 20px;
+	  background-color: #b7ddff;
+		}
+	</style>
+	<title>網站開發技術藍圖</title>
+</head>
+<body>
+	<h2>網站製作技術藍圖</h2>
+	  <div style="border: 1px solid #ccc; padding: 20px; width: 700px; background-color: #f9f9f9; position: relative;">
+
+	    <!-- 主流程 -->
+	    <div style="text-align: center;">
+				<div style="display: flex; justify-content:center;">
+				  <div style="width:33%;text-align:center; display: flex; flex-direction:column; align-items:center;">
+				    <div>使用者（網站 / GPT 對話）</div>
+					  <div style="border: 2px dashed #999;margin-top: 10px; text-align: center;">
+						<div>⬇️&nbsp;CDN(加速靜態資源傳遞)&nbsp;⬆️</div>
+						</div>
+				  </div>
+				  <div style="width:33%; text-align:center; display: flex; flex-direction: column; align-items: center;">
+				    <div>GPT API / 金流 API</div>
+					  <br>
+				    <div>⬇️⬆️</div>
+					</div>
+					<div style="width:33%;text-align:center; display: flex; flex-direction: column; align-items: center;">
+				    <div>android/ios app介面(使用Flutter或React Native製作)</div>
+				    <div>⬇️⬆️</div>
+				  </div>
+				</div>
+		    <div>Figma (UI/UX 設計), VUE（前端）</div>
+	      <div style="margin: 5px;">⬇️⬆️</div>
+	      <div>FASTAPI（外部接待與邏輯處理）</div>
+	      <div style="margin: 5px;">⬇️⬆️</div>
+		    <div>MCP schema(設計給AI用的結構知識)</div>
+	      <div style="margin: 5px;">⬇️⬆️</div>
+		    <div>AI AGENT 根據MCP下決策</div>
+	      <div style="margin: 5px;">⬇️⬆️</div>
+	      <div>呼叫 Django API（使用 DRF 製作）</div>
+	      <div style="margin: 5px;">⬇️⬆️</div>
+	      <div>DJANGO（內部資料處理）</div>
+	      <div style="margin: 5px;">⬇️⬆️</div>
+	      <div>ORM</div>
+	      <div style="margin: 5px;">⬇️⬆️</div>
+	      <div>MySQL</div>
+		    <div style="border: 2px dashed #999; padding: 10px; margin-top: 15px; text-align: center;">
+				  <div>🚀 雲端部署平台（Railway / Vercel / Render 等）</div>
+				  <div>託管前端、FastAPI、Django、MySQL 等</div>
+				</div>
+	    </div>
+	  </div>
+</body>
+</html>
